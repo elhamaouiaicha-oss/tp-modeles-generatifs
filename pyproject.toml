@@ -1,0 +1,14 @@
+[project]
+name = "tp-modeles-generatifs"
+version = "0.1.0"
+description = "TP modèles génératifs : classifieur, autoencodeur et VAE sur MNIST avec PyTorch"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel",
+    "matplotlib",
+    "numpy",
+    "torch",
+    "torcheval",
+    "torchvision",
+]
